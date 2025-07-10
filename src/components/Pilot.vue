@@ -187,13 +187,13 @@ export default {
       return [...lancerData.pilot_gear]
     },
     mechWeapons() {
-      return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons, ...castorData.weapons, ...legionData.weapons, ...suldanData.weapons]
+      return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons]
     },
     mechSystems() {
-      return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems, ...castorData.systems, ...crisisData.systems, ...legionData.systems, ...sotwData.systems, ...suldanData.systems]
+      return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems]
     },
     talents() {
-      return [...lancerData.talents, ...ktbData.talents, ...nrfawData.talents, ...longrimData.talents, ...castorData.talents, ...crisisData.talents, ...legionData.talents, ...sotwData.talents, ...suldanData.talents]
+      return [...lancerData.talents, ...ktbData.talents, ...nrfawData.talents, ...longrimData.talents]
     },
     skills() {
       return [...lancerData.skills]    
