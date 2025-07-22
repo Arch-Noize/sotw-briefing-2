@@ -1,19 +1,19 @@
 {
-  "initialSlug": "001",
+  "initialSlug": "002",
   "planetPath": "/planet.webm",
   "animate": true,
-  "defaultTitle": "MSMC |",
-  "icon": "/faction-logos/msmc.svg",
+  "defaultTitle": "KTB |",
+  "icon": "/faction-logos/barony.svg",
   "header": {
-    "planet": "Heiligtum-6 'Deep Blue'",
+    "planet": "Throne Karrakis",
     "year": "5017u",
-    "system": "Heiligtum",
-    "gate": "Rào Cỏ",
-    "ring": "Annamite",
-    "headerTitle": "Mirrorsmoke",
-    "headerSubtitle": "Mercenary Company",
-    "subheaderTitle": "Contract Work",
-    "subheaderSubtitle": "Sierra-Whiskey-Alpha-Golf"
+    "system": "Karrakis",
+    "gate": "Grand Teton Station",
+    "ring": "Rocky Mountain Line",
+    "headerTitle": "KTB",
+    "headerSubtitle": "Karrakin Cavalry College",
+    "subheaderTitle": "Throne Karrakis",
+    "subheaderSubtitle": " The Lykeon "
   },
   "pilotSpecialInfo": {}
 }
