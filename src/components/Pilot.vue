@@ -141,6 +141,8 @@ import longrimData from 'lancer-longrim-data'
 
 import wallflowerData from '@/assets/LCPs/wallflower-data-2.0.5'
 import winterscarData from '@/assets/LCPs/ows-data-1.0.0'
+import crisisData from '@/assets/LCPs/gms-crisis-catalog-2.7'
+import castorData from '@/assets/LCPs/c&s-2.45'
 /*Append the datasets within computed if your LCP has new items.
 EX:
 pilotGear() {
@@ -189,16 +191,16 @@ export default {
       return [...lancerData.pilot_gear, ...wallflowerData.pilot_gear]
     },
     mechWeapons() {
-      return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons, ...wallflowerData.weapons, ...winterscarData.weapons]
+      return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons, ...wallflowerData.weapons, ...winterscarData.weapons, ...crisisData.weapons, ...castorData.weapons]
     },
     mechSystems() {
-      return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems, ...wallflowerData.systems, ...winterscarData.systems]
+      return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems, ...wallflowerData.systems, ...winterscarData.systems, ...crisisData.systems, ...castorData.systems]
     },
     mods() {
       return [...winterscarData.mods]
     },
     talents() {
-      return [...lancerData.talents, ...ktbData.talents, ...nrfawData.talents, ...longrimData.talents, ...wallflowerData.talents]
+      return [...lancerData.talents, ...ktbData.talents, ...nrfawData.talents, ...longrimData.talents, ...wallflowerData.talents, ...castorData.talents]
     },
     skills() {
       return [...lancerData.skills]    
@@ -207,7 +209,7 @@ export default {
       return [...ktbData.bonds]
     },
     frames() {
-      return [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames, ...wallflowerData.frames, ...winterscarData.frames]
+      return [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames, ...wallflowerData.frames, ...winterscarData.frames, ...crisisData.frames, ...castorData.frames]
     },
     mechManufacturerIcon() {
       if (this.activeMech.manufacturer)
