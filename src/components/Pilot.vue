@@ -5,7 +5,7 @@
         <div class="heading h1">{{ pilot.callsign }}</div>
         <div class="heading h2">({{ pilot.name }}) </div>
       </div>
-      <div class="col"><img src="/faction-logos/msmc.svg"></div>
+      <div class="col"><img src="/faction-logos/barony.svg"></div>
     </div>
     <div class="body">
       <div class="add-padding"> Union Administrative RM-4 Pilot Identification Protocol (IDENT) Record
@@ -140,6 +140,7 @@ import nrfawData from 'lancer-nrfaw-data'
 import longrimData from 'lancer-longrim-data'
 
 import wallflowerData from '@/assets/LCPs/wallflower-data-2.0.5'
+import winterscarData from '@/assets/LCPs/ows-data-1.0.0'
 /*Append the datasets within computed if your LCP has new items.
 EX:
 pilotGear() {
@@ -188,13 +189,16 @@ export default {
       return [...lancerData.pilot_gear, ...wallflowerData.pilot_gear]
     },
     mechWeapons() {
-      return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons]
+      return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons, ...wallflowerData.weapons, ...winterscarData.weapons]
     },
     mechSystems() {
-      return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems]
+      return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems, ...wallflowerData.systems, ...winterscarData.systems]
+    },
+    mods() {
+      return [...winterscarData.mods]
     },
     talents() {
-      return [...lancerData.talents, ...ktbData.talents, ...nrfawData.talents, ...longrimData.talents]
+      return [...lancerData.talents, ...ktbData.talents, ...nrfawData.talents, ...longrimData.talents, ...wallflowerData.talents]
     },
     skills() {
       return [...lancerData.skills]    
@@ -203,7 +207,7 @@ export default {
       return [...ktbData.bonds]
     },
     frames() {
-      return [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames]
+      return [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames, ...wallflowerData.frames, ...winterscarData.frames]
     },
     mechManufacturerIcon() {
       if (this.activeMech.manufacturer)
