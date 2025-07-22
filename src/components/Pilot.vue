@@ -138,14 +138,15 @@ import lancerData from '@massif/lancer-data'
 import ktbData from 'lancer-ktb-data'
 import nrfawData from 'lancer-nrfaw-data'
 import longrimData from 'lancer-longrim-data'
+
 import wallflowerData from '@/assets/LCPs/wallflower-data-2.0.5'
-/*
-import castorData from '@/assets/LCPs/CASTOR & POLLUX-2.45' 
-import crisisData from '@/assets/LCPs/gms-crisis-catalog_2.7'
-import legionData from '@/assets/LCPs/legionnaire_v1.0.0'
-import sotwData from '@/assets/LCPs/sotw-data-1.0.2'
-import suldanData from '@/assets/LCPs/Field_Guide_To_Suldan_2.2.6'
+/*Append the datasets within computed if your LCP has new items.
+EX:
+pilotGear() {
+  return [...lancerData.pilot_gear, ...wallflowerData.pilot_gear]
+},
 */
+
 import PilotModal from '@/components/modals/PilotModal.vue'
 import MechModal from '@/components/modals/MechModal.vue'
 
@@ -199,10 +200,10 @@ export default {
       return [...lancerData.skills]    
     },
     bonds() {
-      return [...ktbData.bonds, ...sotwData.bonds]
+      return [...ktbData.bonds]
     },
     frames() {
-      return [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames, ...castorData.frames, ...crisisData.frames, ...sotwData.frames, ...suldanData.frames]
+      return [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames]
     },
     mechManufacturerIcon() {
       if (this.activeMech.manufacturer)
