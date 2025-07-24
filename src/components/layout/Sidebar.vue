@@ -21,6 +21,10 @@
 					<img src="/icons/events.svg" />
 					<span>Logs</span>
 				</router-link>
+				<router-link class="clipped-bottom-right" to="/source">
+					<img src="/icons/github.svg" />
+					<span>Source</span>
+				</router-link>
 			</o-sidebar>
 		</section>
 	</div>
