@@ -3,12 +3,22 @@
 		class="content-container">
 		<section id="missions" class="section-container" :style="{ 'animation-delay': animationDelay }">
 			<div class="section-header clipped-medium-backward">
-				<img src="/icons/campaign.svg" />
+				<img src="/icons/protocol.svg" />
 				<h1>Credits</h1>
 			</div>
-			<div class="section-content-container">
-				<div class="mission-list-container">
-					This is a small test
+			<div class="source-container">
+				<div class="links">
+					This project is NOT (originally) mine! Please, check out the original creator, Kuenaimaku: 
+				</div>
+				<div class="links">
+					<a href="https://github.com/Kuenaimaku/lancer-briefings">
+						Kuenaimaku's Repo 
+						<img src="/icons/github.svg" class="github"/>
+					</a>
+					<a href="https://github.com/Arch-Noize/sotw-briefing-1">
+						My Repo 
+						<img src="/icons/github.svg" class="github"/>
+					</a>
 				</div>
 			</div>
 		</section>

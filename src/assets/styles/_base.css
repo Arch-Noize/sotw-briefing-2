@@ -1690,3 +1690,52 @@ div.markdown ol li {
 	line-height:11px;
 	text-align: justify;
 }
+
+/* Source Credits CSS */
+
+.source-container {
+	grid-template-rows: 100px 300px;
+  	grid-auto-flow: column;
+  	grid-auto-columns: 200px;
+	justify-items: center;
+	padding: 5px;
+	height: 100%;
+	width: 90vw;
+	background: var(--secondary-color);
+	border: 1px solid var(--primary-color);
+	margin-top: -1px;
+	z-index: 0;
+	overflow: auto;
+	/* Firefox only */
+	scrollbar-width: thin;
+}
+
+.links {
+	line-height: 2em;
+	text-align: center;
+	font-family: "Big Shoulders Display", cursive;
+	font-size: 48px;
+	overflow-y: hidden;
+}
+
+.links a {
+	text-decoration: none;
+	color:var(--primary-color)
+}
+
+.link a:visited {
+    text-decoration: none;
+}
+
+.links img {
+	padding: 0px;
+	margin: 0px;
+	height: 150px;
+	width: 150px;
+	justify-self: center;
+}
+
+/* Change Github Icon Color */
+.github {
+	filter: invert(100%) sepia(99%) saturate(0%) hue-rotate(155deg) brightness(105%) contrast(100%)
+}
