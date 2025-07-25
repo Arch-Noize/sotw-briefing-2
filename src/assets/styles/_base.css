@@ -10,16 +10,17 @@
 :root {
 	/* Primary Colors */
 	--primary-color: #991E2A;
+	--alt-primary-color: #b33a46;
 	--secondary-color: #2121219b;
 	--highlight-hover: rgba(255, 255, 255, 0.3);
 	--highlight-active: rgba(255, 255, 255, 0.1);
 	/* Primary Text */
-	--text-headers: rgba(0, 0, 0, 1);
+	--text-headers: rgb(255, 255, 255);
 	--text-location: rgba(255, 255, 255, 0.87);
 	/* Location Information */
 	--location-separator: rgba(255, 255, 255, 0.24);
 	/* Mission Pane */
-	--text-mission-title: rgba(255, 255, 255, 0.67);
+	--text-mission-title: rgba(255, 255, 255);
 	--text-mission-status: rgba(255, 255, 255, 0.87);
 	--mission-start: rgba(109, 109, 109, 1);
 	--mission-partial: rgba(88, 34, 102, 1);
@@ -28,7 +29,7 @@
 	--primary-logo: #0C3C40;
 	--secondary-logo: #146464;
 	/* Pilot Roster Text */
-	--text-pilot-header: rgba(255, 255, 255, 0.67);
+	--text-pilot-header: rgba(255, 255, 255);
 	--text-pilot-value: rgba(255, 255, 255, 0.87);
 	--text-pilot-code: rgba(255, 255, 255, 0.47);
 	/* Markdown (Current Assignment, Events Log, Pilot Biography) */
@@ -84,6 +85,7 @@ header {
 	z-index: 1;
 	background-color: var(--primary-color);
 	border-color: var(--primary-color);
+	color: #fff; 
 	width: 700px;
 	height: 100%;
 	display: inline-flex;
@@ -149,7 +151,7 @@ header {
 }
 
 #title-first-line {
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #fff;
 }
 
 .rhombus {
@@ -311,7 +313,7 @@ div.location-info {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background: white;
+	background: var(--alt-primary-color);
 	margin-bottom: 1em;
 	text-decoration: none;
 }
@@ -393,6 +395,7 @@ section.section-container#pilots .rhombus-back {
 section .section-header {
 	background-color: var(--primary-color);
 	border-color: var(--primary-color);
+	color: #fff;
 	height: 52px;
 	display: inline-flex;
 	gap: 15px;
@@ -1066,6 +1069,7 @@ section .section-header h1 {
 
 .mech-modal div .section-header h1 {
 	font-size: 26px;
+	color: #fff;
 	margin: 0%;
 	align-self: center;
 	font-family: "Big Shoulders Display", cursive;
@@ -1715,6 +1719,7 @@ div.markdown ol li {
 	text-align: center;
 	font-family: "Big Shoulders Display", cursive;
 	font-size: 48px;
+	color: #fff;
 	overflow-y: hidden;
 }
 
