@@ -4,5 +4,5 @@
 Hi! This is *not* my work. This is a [webapp created with Vue by Kuenaimaku](https://github.com/Kuenaimaku/lancer-briefings). They made the entire structure and guide how to make your own version of your LANCER's briefing. Please support them!
 
 # SOTW Briefing
-
-Deployed page.
+Here's the link to the [Deployed Page](https://salts-sotw-1.netlify.app/status) and my party's version of the Figma design by [Akira Yamamoto](https://www.figma.com/community/file/983540597915480981/lancer-rpg-vtt-landing-page).
+![img.png]
