@@ -6,4 +6,4 @@ Hi! This is *not* my work. This is a [webapp created with Vue by Kuenaimaku](htt
 # SOTW Briefing
 Here's the link to the [Deployed Page](https://salts-sotw-1.netlify.app/status) and my party's version of the Figma design by [Akira Yamamoto](https://www.figma.com/community/file/983540597915480981/lancer-rpg-vtt-landing-page).
 
-<img width="7680" height="4320" alt="LANCER Roster Team#1" src="./LANCER%20Roster%20Team#1.png" />
+![Team Page](https://github.com/Arch-Noize/sotw-briefing-1/blob/main/LANCER%20Roster%20Team%231.png?raw=true)
